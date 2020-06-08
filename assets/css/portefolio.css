@@ -7,10 +7,11 @@
   box-sizing                : border-box;
 }
 
-html, body {
+html, body, ul {
   margin                  : 0;
   padding                 : 0; 
   height                  :100%;
+  list-style: none;
 }
   
 .portfolio-item {
@@ -47,8 +48,21 @@ header{
   height                  : 100vh;
 }
 
-header, nav{
-  padding-top             : 56px;
+header nav{
+  padding             : 5px 0;
+}
+
+header ul{
+  justify-content: space-evenly;
+}
+
+header a{
+  color: #cccccc;
+  text-transform: uppercase;
+}
+
+header a:hover{
+  color: white;
 }
 
 /**********************************
