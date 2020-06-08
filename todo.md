@@ -14,7 +14,7 @@
 
 <<<<<<< Updated upstream
 1. Change navbar 🚀  
-2. Resizing imgs  
+2. Resize imgs  
 3. Add bgs
 4. Add an hover effect on links
 5. Add an overlay effect on cards  
