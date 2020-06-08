@@ -5,13 +5,14 @@
 
 ## HTML  
 
-1. Finish writing descriptions (my work, about me, skills) 🚀
+1. Finish writing descriptions (my work, about me, skills) ✅  
 2. Add images
 
 ## CSS  
 
-1. Resizing imgs  
-2. Add bgs
-3. Add an hover effect on links
-4. Add an overlay effect on cards  
-5. Add a paralax effect on header bg  
+1. Change navbar 🚀  
+2. Resizing imgs  
+3. Add bgs
+4. Add an hover effect on links
+5. Add an overlay effect on cards  
+6. Add a paralax effect on header bg  
