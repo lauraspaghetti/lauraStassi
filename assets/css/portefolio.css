@@ -3,9 +3,10 @@
 *********GENERAL SETTINGS*********
 **********************************/
 
-*, *:before, *:after {
+* {
   box-sizing             : border-box;
 }
+
 
 html, body, ul {
   margin                 : 0;
