@@ -12,6 +12,13 @@
 5. Add a button to dowload my resume ✅
 6. Add a favicon ✅  
 
+## Bugs  
+
+1. Fix responsive bug in about section w/ btn : 🚀  
+
+- needs to be centered  
+- needs to be given some space from the pic)  
+
 ## CSS  
 
 1. Change navbar ✅  
