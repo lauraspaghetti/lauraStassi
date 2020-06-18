@@ -16,10 +16,6 @@ html, body, ul {
   font-size              : 1rem;
 }
   
-.portfolio-item {
-  margin-bottom          : 30px;
-}
-
 a{
   text-decoration        : none; 
   color                  : black;
@@ -113,7 +109,7 @@ header div:nth-of-type(2){
 ***********************************/
 
 #work{
-  margin-bottom: 5rem;
+  margin-bottom         : 3rem;
 }
 
 #work img{
@@ -161,6 +157,18 @@ header div:nth-of-type(2){
 }
 
 /**********************************
+*************SECTION 2*************
+***********************************/
+
+#about div.row > div:nth-of-type(1){
+  margin-bottom           : 2rem;
+}
+
+#about p ~ div{
+  padding                 : 0;
+}
+
+/**********************************
 ***************FOOTER**************
 ***********************************/
 
@@ -186,4 +194,26 @@ footer p + div{
   text-align              : center;
   font-size               : 50px;
   letter-spacing          : 0.5rem;
+}
+
+/**********************************
+************MEDIA QUERIES**********
+***********************************/
+
+/* For smarthphones */
+
+@media screen and (max-width: 760px) {
+
+  #work{
+    margin-bottom          : 2rem;
+  }
+
+  #about p ~ div{
+    text-align             : center;
+  }
+
+  .portfolio-item {
+    margin-bottom          : 1.8rem;
+  }
+
 }
