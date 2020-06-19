@@ -1,6 +1,6 @@
 
 /*********************************
-*********GENERAL SETTINGS*********
+******** GENERAL SETTINGS ********
 **********************************/
 
 * {
@@ -40,15 +40,13 @@ h2, h3{
 }
 
 /*********************************
-***************TYPOS**************
+************** TYPOS *************
 **********************************/
 
 @import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,531;1,531&family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;0,500;0,600;1,200;1,300;1,400;1,500;1,600&display=swap');
 
 /*
-font-family: 'Jost', sans-serif;
 font-family: 'Source Code Pro', monospace;
-font-family: 'Rokkitt', serif;
 */
 
 h1, h2, h3{
@@ -60,7 +58,7 @@ h4, h5, p, li{
 }
 
 /**********************************
-**************HEADER***************
+************* HEADER **************
 ***********************************/
   
 header{
@@ -105,7 +103,7 @@ header div:nth-of-type(2){
 
 
 /**********************************
-*************SECTION 1*************
+************ SECTION 1 ************
 ***********************************/
 
 #work{
@@ -157,7 +155,7 @@ header div:nth-of-type(2){
 }
 
 /**********************************
-*************SECTION 2*************
+************ SECTION 2 ************
 ***********************************/
 
 #about div.row > div:nth-of-type(1){
@@ -169,7 +167,7 @@ header div:nth-of-type(2){
 }
 
 /**********************************
-***************FOOTER**************
+************** FOOTER *************
 ***********************************/
 
 footer{
@@ -197,23 +195,27 @@ footer p + div{
 }
 
 /**********************************
-************MEDIA QUERIES**********
+*********** MEDIA QUERIES *********
 ***********************************/
 
 /* For smarthphones */
 
 @media screen and (max-width: 760px) {
 
+ /*** SECTION 1 ***/
+
   #work{
     margin-bottom          : 2rem;
   }
 
-  #about p ~ div{
-    text-align             : center;
-  }
-
   .portfolio-item {
     margin-bottom          : 1.8rem;
+  }
+
+  /*** SECTION 2 ***/
+
+  #about p ~ div{
+    text-align             : center;
   }
 
 }
