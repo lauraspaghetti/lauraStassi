@@ -207,6 +207,10 @@ footer p + div{
 
 @media screen and (max-width: 760px) {
 
+  header{
+    background-attachment  : unset;
+  }
+
  /*** SECTION 1 ***/
 
   #work{
